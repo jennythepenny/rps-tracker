@@ -25,7 +25,7 @@ function reset () {
     Ties = 0
     PA = 0
     PB = 0
-    OLED.writeStringNewLine("time to play tic-tac-toe!!!")
+    OLED.writeStringNewLine("time to play rock paper scissors!!!")
     basic.pause(2000)
     update_score()
 }
